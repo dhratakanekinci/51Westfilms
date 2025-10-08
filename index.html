@@ -10,16 +10,32 @@
 </head>
 <body>
 
-  <header>
-    <nav>
-      <h1 class="logo"><img src="images/51LOGO_V2_16-9.png"></h1>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">Over</a></li>
-        <li><a href="#work">Werk</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <nav>
+    <a href="#home" class="logo">
+      <img src="images/51LOGO_V2_16-9.png" alt="Logo">
+    </a>
+
+    <!-- Verborgen checkbox toggle -->
+    <input type="checkbox" id="menu-toggle">
+
+    <!-- Hamburger icon -->
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigatielinks -->
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Over</a></li>
+      <li><a href="#work">Werk</a></li>
+    </ul>
+  </nav>
+</header>
+
+
 
   <div class="video-bg" aria-hidden="true">
     <iframe
@@ -29,32 +45,28 @@
       allowfullscreen
       class="video-iframe"
     ></iframe>
-
-    <div class="watermark">51westfilms</div>
   </div>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>51WESTFILMS</h2>
-      <p>kkziekefilmbedrijfoulleh</p>
-      <a href="#work" class="btn">Bekijk werk</a>
-    </div>
-  </section>
-
   <section id="about" class="about">
-    <h2>Over mij</h2>
-    <p>
-      Ik ben een filmmaker en visual storyteller met een passie voor reizen, licht en menselijke verhalen.
-      Mijn werk combineert analoge en digitale technieken voor een authentieke look.
-    </p>
+    <h2>About</h2>
+ <div class="content-about">
+  <p>
+    51Westfilms is een groep jonge filmmakers die een nieuw geluid willen laten horen. 
+    <i>Geen moeilijk gedoe, gewoon gaan!</i> Bij 51Westfilms kan je terecht voor al jouw film/video ideeën! 
+    Is het nou een montage, een hele dag filmen of een commercial voor je nieuwe onderneming. 
+    Dan zijn wij de place to be! Schroom niet en slide in de DM of stuur een mailtje.
+  </p>
+  <img src="images/TEAM.jpg" alt="Team 51Westfilms">
+</div>
+
   </section>
 
   <section id="work" class="work">
-    <h2>Werk</h2>
+    <h2>Work</h2>
     <div class="grid">
-      <div class="card"><img src="project1.jpg" alt="Project 1"></div>
-      <div class="card"><img src="project2.jpg" alt="Project 2"></div>
-      <div class="card"><img src="project3.jpg" alt="Project 3"></div>
+      <div class="card"><img src="images/LOST_CUCK.png"></div>
+      <div class="card"><img src="images/AWD_STILL3_8.1.4.jpg"></div>
+      <div class="card"><img src="images/WAVES.png"></div>
     </div>
   </section>
 
